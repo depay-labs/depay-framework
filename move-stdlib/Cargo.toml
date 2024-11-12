@@ -1,0 +1,17 @@
+[package]
+name = "depay-move-stdlib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+depay-gas-schedule = { workspace = true }
+depay-native-interface = { workspace = true }
+move-core-types = { workspace = true }
+move-vm-runtime = { workspace = true }
+move-vm-types = { workspace = true }
+sha2 = "0.9.3"
+sha3 = "0.9.1"
+smallvec = "1.6.1"
+
+[features]
+testing = []

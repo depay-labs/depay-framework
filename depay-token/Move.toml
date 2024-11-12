@@ -1,0 +1,12 @@
+[package]
+name = "DePayToken"
+version = "1.0.0"
+
+[addresses]
+std = "0x1"
+depay_framework = "0x1"
+depay_token = "0x3"
+
+[dependencies]
+MoveStdlib = { local = "../move-stdlib" }
+DePayFramework = { local = "../depay-framework"}

@@ -1,0 +1,16 @@
+[package]
+name = "DePayFramework"
+version = "1.0.0"
+
+[addresses]
+std = "0x1"
+depay_std = "0x1"
+depay_framework = "0x1"
+depay_fungible_asset = "0xA"
+depay_token = "0x3"
+core_resources = "0xA550C18"
+vm_reserved = "0x0"
+
+[dependencies]
+DePayStdlib = { local = "../depay-stdlib" }
+MoveStdlib = { local = "../move-stdlib" }
